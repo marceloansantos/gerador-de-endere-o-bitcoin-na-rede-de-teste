@@ -1,0 +1,22 @@
+{
+  "name": "btcwallet",
+  "version": "1.0.0",
+  "description": "A Bitcoin wallet application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitcoin",
+    "wallet",
+    "cryptocurrency"
+  ],
+  "author": "Marcelo Andrade",
+  "license": "ISC",
+  "dependencies": {
+    "bip32": "^2.0.6",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.6"
+  }
+}
